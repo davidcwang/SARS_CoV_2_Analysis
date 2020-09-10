@@ -35,3 +35,18 @@ Apparently a 'J' is supposed to indicate either 'I' or 'L'.
 We will replace with an 'L' in this case because ABN10847.1 and AVP25405.1 have 'L's in that position
 which is the majority.
 
+
+### Protocols
+#### Steps for Quering ViPR
+1. Go to the [ViPR Immune Epitope Search](https://www.viprbrc.org/brc/vipr_virusEpitope_search.spg?method=ShowCleanSearch&type=curated&decorator=corona)
+
+2. Use the following values in the corresponding fields 
+   1. Species: "Severe acute respiratory syndrome-related coronavirus"
+   2. Host: "human"
+
+3. Check the "Positive" checkbox for the following Assay Results:
+   1. B-Cell
+   2. T-Cell
+   3. MHC
+
+Search Result returned 1,394 epitopes.
