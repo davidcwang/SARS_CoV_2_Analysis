@@ -50,3 +50,41 @@ which is the majority.
    3. MHC
 
 Search Result returned 1,394 epitopes.
+
+
+### Data Format
+#### Population Coverage Pickle File
+MHC Type (String) --> Country (String) --> HLA Type (String) --> (HLA Allele, Population coverage) (Tuple)
+```json
+{
+   'I': {
+      'China': {
+         'HLA-A': [
+            ('HLA-A*01:01', 0.1009),
+            ('HLA-A*01:02', 0.002),
+            ('HLA-A*01:03', 0.0005),
+            ...
+         ],
+         'HLA-B': [
+            ...
+         ]
+         ...
+      },
+      ...
+      'Unites State': {
+         ...
+      }
+      ...
+      'World: {
+         ...
+      }
+   },
+   ...
+   'II': {
+      ...
+   }
+   'Combined': {
+      ...
+   }
+}
+```
