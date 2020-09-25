@@ -6,10 +6,11 @@ Better understand Sars-Cov-2
 - [RNA Strucural Diagrams](https://www.news-medical.net/news/20200702/Structure-of-the-full-SARS-CoV-2-RNA-genome-in-infected-cells.aspx)
 
 ### Papers
-- [Proximal Origin](https://www.nature.com/articles/s41591-020-0820-9?fbclid=IwAR1Nj6E-XsU_N6IrFN1m9gCT-Q7app0iO2eUpN5x7OSi-l_q6c1LBx8-N24)
-- [Computational Analysis of non-ideal binding with ACE2](https://jvi.asm.org/content/94/7/e00127-20)
-- [Diagnosis and Treatment Methods](https://www.sciencedirect.com/science/article/pii/S1286457920300253?via%3Dihub)
-- [Genetic Diversity](https://www.sciencedirect.com/science/article/pii/S1567134820300915#s0005)
+1. [Preliminary Identification of Potential Vaccine Targets for the COVID-19 Coronavirus (SARS-CoV-2) Based on SARS-CoV Immunological Studies](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7150947)
+2. [Proximal Origin](https://www.nature.com/articles/s41591-020-0820-9?fbclid=IwAR1Nj6E-XsU_N6IrFN1m9gCT-Q7app0iO2eUpN5x7OSi-l_q6c1LBx8-N24)
+3. [Computational Analysis of non-ideal binding with ACE2](https://jvi.asm.org/content/94/7/e00127-20)
+4. [Diagnosis and Treatment Methods](https://www.sciencedirect.com/science/article/pii/S1286457920300253?via%3Dihub)
+5. [Genetic Diversity](https://www.sciencedirect.com/science/article/pii/S1567134820300915#s0005)
 
 ### Insights
 
@@ -50,8 +51,6 @@ which is the majority.
    3. MHC
 
 Search Result returned 1,394 epitopes.
-
-
 ### Data Format
 #### Population Coverage Pickle File
 MHC Type (String) --> Country (String) --> HLA Type (String) --> (HLA Allele, Population coverage) (Tuple)
