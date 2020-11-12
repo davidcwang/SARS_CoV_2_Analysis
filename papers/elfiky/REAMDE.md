@@ -13,6 +13,12 @@
     - For Database choose PDB nucleotide database (pdb) 
 1. Get most similar homologous target, in this case the Sars-CoV-1 6NUR protein (nsp12).
 1. [6NUR RCSB](https://www.rcsb.org/structure/6nur)
+1. Install Open Babel
+   * If you get the following error, you might have to set CPLUS_INCLUDE_PATH
+   to your python HEADERS directory
+
+        e.g. ```export CPLUS_INCLUDE_PATH=/usr/local/Cellar/python/3.7.7/Frameworks/Python.framework/Headers```
+
 
 #### HLA (Human Leukocyte Antigen) Population Allele Analysis
 #### Population Coverage Pickle File
